@@ -5,12 +5,6 @@ export default function Carousel() {
         <div>
             <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel" style={{objectFit:"contain !important"}}>
                 <div className="carousel-inner" id="carousel">
-                    <div className="carousel-caption" style={{zIndex:"10"}}>
-                        <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-success text-white bg-success" type="submit">Search</button>
-                        </form>
-                    </div>
                     <div className="carousel-item active">
                         <img src="https://images.unsplash.com/photo-1550547660-d9450f859349" className="d-block w-100" style={{ height: "600px", objectFit: "cover" }} alt="chicken-burger" />
                     </div>
