@@ -36,3 +36,54 @@
     transform: rotate(360deg);
   }
 }
+
+/* Modern Navbar Styling */
+
+.custom-navbar{
+  background: rgba(15,15,15,0.92);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.20);
+  padding: 12px 30px;
+}
+
+.navbar-brand{
+  font-size: 1.8rem !important;
+  font-weight: 800;
+  color: #ff914d !important;
+  letter-spacing: 1px;
+}
+
+.custom-link{
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.custom-link:hover{
+  color: #ff914d !important;
+  transform: translateY(-1px);
+}
+
+.login-btn{
+  background: linear-gradient(135deg,#ff914d,#ff6b00);
+  color: #ffffff !important;
+  padding: 8px 18px !important;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(255,145,77,0.35);
+}
+
+.navbar-toggler{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-nav{
+  align-items: center;
+  gap: 10px;
+}
